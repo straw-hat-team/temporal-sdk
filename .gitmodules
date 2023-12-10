@@ -1,0 +1,6 @@
+[submodule "submodule/googleapis/googleapis"]
+	path = submodule/googleapis/googleapis
+	url = https://github.com/googleapis/googleapis.git
+[submodule "submodule/temporal/api"]
+	path = submodule/temporal/api
+	url = https://github.com/temporalio/api.git
