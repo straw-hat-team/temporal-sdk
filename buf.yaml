@@ -1,3 +1,3 @@
 version: v1
-directories:
-  - submodule/temporal/api
+deps:
+  - "buf.build/googleapis/googleapis"

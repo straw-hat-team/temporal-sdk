@@ -5,4 +5,5 @@ tasks:
       - task --list-all
   generate:
     cmds:
-      - buf generate
+      - buf generate https://github.com/temporalio/api.git
+

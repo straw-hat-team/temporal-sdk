@@ -1,9 +1,10 @@
 version: v1
 plugins:
-  - plugin: protoc-gen-elixir
-    out: lib/temporal_sdk/protos
+  - plugin: elixir
+    out: ./lib
+    strategy: directory
     opt:
+      - plugins=grpc
       - paths=source_relative
-      - elixir_opt=package_prefix=temporal_sdk.protos
-      - elixir_opt=one_file_per_module=true
+      - include_docs=true
       - elixir_opt=include_docs=true
