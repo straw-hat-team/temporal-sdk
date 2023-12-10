@@ -1,0 +1,10 @@
+version: v1
+plugins:
+  - plugin: elixir
+    out: ./lib
+    strategy: directory
+    opt:
+      - plugins=grpc
+      - paths=source_relative
+      - include_docs=true
+      - elixir_opt=include_docs=true
